@@ -30,7 +30,7 @@ defmodule AWS.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:ex_doc, "~> 0.7.3", only: :dev},
-     {:poison, "~> 1.4.0"},
+     {:poison, "~> 1.5.0"},
      {:httpoison, "~> 0.6"},
      {:timex, "~> 0.13.4"}]
   end
