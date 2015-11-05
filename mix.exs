@@ -32,7 +32,7 @@ defmodule AWS.Mixfile do
     [{:ex_doc, "~> 0.7.3", only: :dev},
      {:poison, "~> 1.5.0"},
      {:httpoison, "~> 0.6"},
-     {:timex, "~> 0.13.4"}]
+     {:timex, ">= 0.13.4"}]
   end
 
   defp version do
